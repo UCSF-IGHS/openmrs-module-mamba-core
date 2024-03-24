@@ -14,7 +14,7 @@ BEGIN
         SET mysqlDatatype = 'TEXT';
 
     ELSEIF conceptDatatype = 'Boolean' THEN
-        SET mysqlDatatype = 'VARCHAR(20)';
+        SET mysqlDatatype = 'Boolean';
 
     ELSEIF conceptDatatype = 'Date' THEN
         SET mysqlDatatype = 'DATE';

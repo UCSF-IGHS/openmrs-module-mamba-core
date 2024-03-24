@@ -13,7 +13,7 @@ BEGIN
             SET obsValueColumn = 'obs_value_text';
 
         ELSEIF conceptDatatype = 'Boolean' THEN
-            SET obsValueColumn = 'obs_value_text';
+            SET obsValueColumn = 'obs_value_boolean';
 
         ELSEIF  conceptDatatype = 'Date'
                 OR conceptDatatype = 'Datetime' THEN
